@@ -39,7 +39,7 @@ Servidor padrao: http://localhost:4000
 ## Login
 
 - `POST /auth/login`
-- body: `{ "email": "admin@erp.com", "password": "admin123" }`
+- body: `{ "email": "admin2@erp.com", "password": "admin123" }`
 
 O retorno inclui `token`, que deve ser enviado em `Authorization: Bearer <token>`.
 
